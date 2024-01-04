@@ -11,8 +11,11 @@ Run the cells in CSE6250 Final Peoject1.ipynb. Cell 23 will give the merged data
 Here are the health conditions: 1: cohort (is the patient frequent flier) 2: Obesity 3: Non Adherence 4: Developmental Delay Retardation 5: Advanced Heart Disease 6: Advanced Lung Disease 7: Schizophrenia and other Psychiatric Disorders 8: Alcohol Abuse 9: Other Substance Abuse 10: Chronic Pain Fibromyalgia 11: Chronic Neurological Dystrophies 12: Advanced Cancer 13: Depression 14: Dementia. Note that some of them are very imbalanced. Positive (1, disease confirmed) is much less than negative for those conditions. Although the weights argument of the CE loss function are assigned, it is highly recommneded to enhance the sampling of the positives by yourself.
 ## Reference
 Gehrmann S, Dernoncourt F, Li Y, et al. Comparing deep learning and concept extraction based methods for patient phenotyping from clinical narratives. PLOS ONE. 2018;13(2):e0192360.
+
 https://github.com/sebastianGehrmann/phenotyping
+
 To access the MIMIC-III data, visit:
 https://physionet.org/
+
 Reimplementation of the 1D-CNN LM:
 https://github.com/leohsuofnthu/Pytorch-TextCNN
